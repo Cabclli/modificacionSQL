@@ -1,0 +1,1 @@
+delete from language WHERE  language_id not in  (SELECT language_id from film) 
