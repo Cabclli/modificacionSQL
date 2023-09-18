@@ -1,1 +1,1 @@
-DELETE FROM address WHERE address not in (SELECT address FROM address)
+DELETE FROM address WHERE address not in (SELECT city FROM city)
