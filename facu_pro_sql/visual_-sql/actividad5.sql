@@ -1,3 +1,3 @@
 INSERT INTO user (username,password)
-SELECT "roberto", password FROM user WHERE username like "%carlito%" 
+value((SELECT "roberto", password FROM user WHERE username like "%carlito%"),"33");
             
